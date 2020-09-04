@@ -11,3 +11,15 @@
 
 ![pac1](https://github.com/alialhousseini/pacman-AI/blob/master/1.PNG)
 ![pac2](https://github.com/alialhousseini/pacman-AI/blob/master/2.PNG)
+
+### Commands
+- python pacman.py
+- python pacman.py --layout testMaze --pacman GoWestAgent
+- python pacman.py --layout tinyMaze --pacman GoWestAgent
+- python pacman.py -h
+- python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
+- python pacman.py -l tinyMaze -p SearchAgent
+- python pacman.py -l mediumMaze -p SearchAgent
+- python pacman.py -l bigMaze -z .5 -p SearchAgent
+- python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+- python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
